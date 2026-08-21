@@ -1,0 +1,32 @@
+EVALUATION SUMMARY
+========================================================================
+Dataset           : C:\Users\magh firli\OneDrive - Bina Nusantara\SEMESTER 9\SKRIPSI\backend_improved\Backend\data\detector_evaluation\eval_dataset_balanced_750_750_direct.csv
+Dataset profile    : direct_url
+Rows evaluated    : 1500
+Runtime (seconds) : 128.01
+
+CONFUSION MATRIX
+------------------------------------------------------------------------
+TP (phishing->phishing)     : 643
+TN (legitimate->legitimate) : 745
+FP (legitimate->phishing)   : 5
+FN (phishing->legitimate)   : 107
+
+METRICS
+------------------------------------------------------------------------
+Accuracy          : 0.9253 (92.53%)
+Precision         : 0.9923 (99.23%)
+Recall            : 0.8573 (85.73%)
+Specificity       : 0.9933 (99.33%)
+F1-Score          : 0.9199
+Balanced Accuracy : 0.9253
+MCC               : 0.8586
+
+ACADEMIC READINESS
+------------------------------------------------------------------------
+Sudah layak untuk skripsi, tetapi untuk artikel ilmiah kamu perlu analisis error dan pembandingan baseline yang rapi.
+
+NOTES
+------------------------------------------------------------------------
+- Metrik utama sudah baik, namun masih perlu pembahasan false positive dan false negative agar argumennya kuat.
+- Untuk skenario direct URL, balanced accuracy sudah kuat dan cocok dijadikan hasil utama skripsi.

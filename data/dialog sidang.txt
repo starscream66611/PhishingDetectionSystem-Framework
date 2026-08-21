@@ -1,0 +1,137 @@
+Justru kalau temanmu sudah menjelaskan **latar belakang, masalah, tujuan, dan gambaran sistem** dari poster sebelumnya, maka saat masuk ke **Slide 3 (Methodology)** tugasmu bukan lagi menjelaskan *apa itu phishing*, tetapi menjelaskan:
+
+> **"Bagaimana sistem ini bekerja dan bagaimana kami mengevaluasinya."**
+
+Itu akan membuat presentasi terasa mengalir dan tidak mengulang materi temanmu.
+
+---
+
+## Transisi dari Presenter Sebelumnya
+
+Setelah temanmu selesai:
+
+> "Setelah menjelaskan latar belakang dan gambaran umum sistem, selanjutnya saya akan menjelaskan metodologi yang digunakan dalam penelitian ini. Pada bagian ini saya akan membahas data yang digunakan, pendekatan deteksi, sistem penilaian, serta mekanisme klasifikasi yang diterapkan."
+
+Jangan langsung baca isi slide.
+
+---
+
+# Bagian 1 — Pengumpulan Data
+
+Saat menunjuk bagian pertama slide:
+
+> "Pertama, kami mengumpulkan data dari dua kategori, yaitu URL phishing dan URL legitimate atau URL yang aman.
+>
+> Untuk data phishing, kami menggunakan sumber yang sudah banyak digunakan dalam penelitian keamanan siber, yaitu PhishTank dan OpenPhish.
+>
+> Sedangkan untuk URL legitimate, kami menggunakan domain dari Tranco, Majestic, serta daftar merek terpercaya.
+>
+> Dari seluruh data tersebut, kami membentuk dataset evaluasi sebanyak 1.500 URL yang terdiri dari 750 URL phishing dan 750 URL legitimate."
+
+### Karakter Presentasi
+
+Jangan baca:
+
+❌ "URL phishing PhishTank lima puluh tujuh ribu dua ratus dua belas..."
+
+Karena audiens tidak peduli angka sumber mentahnya.
+
+Fokus ke:
+
+✅ "Dataset seimbang 750 phishing dan 750 legitimate."
+
+---
+
+# Bagian 2 — Pendekatan Deteksi
+
+Masuk ke kotak kedua.
+
+> "Berbeda dengan penelitian yang menggunakan machine learning yang membutuhkan proses pelatihan model, penelitian ini menggunakan pendekatan hybrid berbasis aturan atau rule-based hybrid approach.
+>
+> Pendekatan ini menggabungkan beberapa lapisan deteksi yang saling melengkapi.
+>
+> Tujuannya adalah agar sistem tetap ringan, mudah diinterpretasikan, namun tetap mampu mendeteksi URL phishing secara efektif."
+
+### Berkarakter
+
+Berikan sedikit penekanan:
+
+> "Jadi fokus kami bukan membuat model yang kompleks, tetapi membuat sistem yang cepat, transparan, dan dapat digunakan secara real-time."
+
+Kalimat ini biasanya disukai dosen.
+
+---
+
+# Bagian 3 — Sistem Penilaian
+
+Tunjuk kotak ketiga.
+
+> "Setiap lapisan deteksi menghasilkan kontribusi terhadap skor risiko akhir.
+>
+> Sistem tidak hanya menggunakan bobot, tetapi juga menerapkan mekanisme bonus dan penalti untuk memperkuat indikasi tertentu.
+>
+> Dengan pendekatan ini, keputusan yang dihasilkan tidak hanya akurat, tetapi juga lebih mudah dijelaskan dibandingkan model black-box."
+
+### Kalimat Kunci
+
+Kalau dosen suka metodologi:
+
+> "Artinya, kami dapat mengetahui alasan mengapa suatu URL dikategorikan berisiko, bukan hanya mengetahui hasil akhirnya."
+
+Ini menunjukkan interpretabilitas.
+
+---
+
+# Bagian 4 — Klasifikasi
+
+Tunjuk bagian bawah yang warna hijau-kuning-merah.
+
+> "Setelah skor dihitung, sistem akan mengelompokkan URL ke dalam tiga kategori.
+>
+> Skor 0 hingga 34 persen dikategorikan sebagai Aman.
+>
+> Skor 35 hingga 59 persen dikategorikan sebagai Mencurigakan.
+>
+> Sedangkan skor 60 hingga 100 persen dikategorikan sebagai Phishing."
+
+Lalu lanjutkan poin penting:
+
+> "Namun untuk kebutuhan pengguna akhir, kategori Mencurigakan dan Phishing digabung menjadi satu kategori yaitu Phishing.
+>
+> Hal ini dilakukan agar sistem menghasilkan keputusan biner yang lebih sederhana dan mudah dipahami pengguna."
+
+Ini poin yang kemungkinan besar ditanya dosen.
+
+---
+
+# Penutup Sebelum Slide Hasil
+
+Sebelum pindah ke slide berikutnya:
+
+> "Setelah metodologi dan mekanisme klasifikasi ditentukan, langkah berikutnya adalah menguji performa sistem pada dataset yang telah disiapkan. Hasil evaluasi tersebut akan saya jelaskan pada slide berikutnya."
+
+---
+
+## Kenapa Cara Ini Terlihat Profesional?
+
+Karena kamu:
+
+❌ Tidak membaca isi slide satu per satu.
+
+❌ Tidak menjelaskan ulang poster temanmu.
+
+✅ Menjelaskan alasan di balik metode.
+
+✅ Menjelaskan keputusan desain sistem.
+
+✅ Menjadi "pencerita" alur penelitian.
+
+Audiens akan merasa:
+
+> "Oke, dia benar-benar paham metodologinya."
+
+bukan
+
+> "Dia sedang membacakan slide."
+
+Untuk durasi sidang atau seminar, slide metodologi seperti ini idealnya dijelaskan sekitar **1,5–2 menit**, tidak lebih. Setelah itu langsung masuk ke **Slide 4 (hasil evaluasi)** karena biasanya dosen paling tertarik pada hasil dan performanya.

@@ -1,0 +1,6 @@
+{
+  "urls": [
+    { "name": "openphish_text", "url": "https://openphish.com/feed.txt" },
+    { "name": "phishstats", "url": "https://phishstats.info/phish_score.csv" }
+  ]
+}

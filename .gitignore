@@ -1,0 +1,47 @@
+ 
+# Node
+node_modules/
+Frontend-app/node_modules/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Data / model besar
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Node
+node_modules/
+Frontend-app/node_modules/
+Frontend-app/.vite/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Data / model besar
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# OS
+Thumbs.db
+.DS_Store

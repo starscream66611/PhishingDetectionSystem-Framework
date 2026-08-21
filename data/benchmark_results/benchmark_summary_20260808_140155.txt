@@ -1,0 +1,33 @@
+SYSTEM RESOURCE BENCHMARK
+================================================================
+Dataset                       : C:\Users\magh firli\OneDrive - Bina Nusantara\SEMESTER 9\SKRIPSI\backend_improved\Backend\data\detector_evaluation\eval_dataset_balanced_500_500_direct.csv
+URLs tested                   : 500
+Successful                    : 500
+Failed                        : 0
+Logical CPU cores             : 16
+Total runtime                 : 2472.124 s
+Throughput                    : 0.202 URL/s
+
+LATENCY
+----------------------------------------------------------------
+Average                       : 4944.239 ms
+Median                        : 2715.475 ms
+P95                           : 16788.474 ms
+Maximum                       : 66631.782 ms
+
+PROCESS CPU
+----------------------------------------------------------------
+Average (raw psutil)          : 9.42%
+Peak (raw psutil)             : 116.40%
+Average (0-100 normalized)    : 0.59%
+Peak (0-100 normalized)       : 7.28%
+
+MEMORY (RSS)
+----------------------------------------------------------------
+Average                       : 183.11 MB
+Peak                          : 193.79 MB
+
+Notes:
+- Raw process CPU can exceed 100% when the process uses multiple logical CPU cores.
+- Normalized CPU divides raw process CPU by the number of logical CPU cores.
+- Resource sampling interval: 0.10 seconds.
